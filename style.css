@@ -18,14 +18,18 @@ h1 {
     color: #E81C5E;
 }
 #left{
+ float: left;
 width: 15%;
 }
 #center{
+ float: left;
 width: 70%;
 }
 #right{
+ float: left;
 width: 15%;
 }
 .icon{
  width: 50%;
+ margin: 10% 25% 0% 25%;
 }
