@@ -17,3 +17,12 @@ h1 {
     display: block;
     color: #E81C5E;
 }
+.left{
+width: 15%;
+}
+.center{
+width: 70%;
+}
+.right{
+width: 15%;
+}
