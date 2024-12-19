@@ -6,7 +6,12 @@ body {
  display: block;
  margin: auto;
 }
-#over {
+#overtext {
+ width: 300px;
+ display: block;
+ margin: auto;
+}
+#undertext {
  width: 300px;
  display: block;
  margin: auto;
