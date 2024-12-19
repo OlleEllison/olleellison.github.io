@@ -6,3 +6,14 @@ image {
  display: block;
  margin: auto;
 }
+p {
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+h1 {
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: #E81C5E;
+}
