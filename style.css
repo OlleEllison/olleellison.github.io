@@ -6,6 +6,11 @@ body {
  display: block;
  margin: auto;
 }
+#over {
+ width: 300px;
+ display: block;
+ margin: auto;
+}
 p {
     text-align: center;
     margin: auto;
