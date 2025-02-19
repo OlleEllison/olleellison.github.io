@@ -55,11 +55,6 @@ $shadow: rgba(0,0,0,0.1);
 
 $px: 4px;
 
-body {
-	background-color:#6e6565;
-	padding: 60px;
-}
-
 $bubble-border: 0 -1*$px $white, 
 		0 -2*$px $black, 
 		$px 0 $white, 
