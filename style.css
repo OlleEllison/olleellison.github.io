@@ -48,7 +48,11 @@ width: 15%;
  width: 10%;
  margin: 10% 45% 0% 45%;
 }
-
+#countdown{
+ text-align: center;
+  font-family: "Press Start 2P", cursive;
+  font-size: 16px;
+}
 .bubble {
   position: relative;
   display: inline-block;
