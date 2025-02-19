@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
- 
+
 <head>
    <title>
         Bröllop!
@@ -39,9 +39,28 @@
     <div class="bubble grow left">kom och sup!</div>
     </div>
   
+    
+    <p id="countdown"></p>
 
+ <script>
+        function updateCountdown() {
+            const targetDate = new Date("2026-08-15"); // Change this to your target date
+            const currentDate = new Date();
+            
+            const timeDifference = targetDate - currentDate;
+            const daysRemaining = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
 
+            document.getElementById("countdown").textContent = `${daysRemaining} dagar kvar!`;
 
+            if (daysRemaining <= 0) {
+                document.getElementById("countdown").textContent = "The event has arrived!";
+            }
+        }
+
+        updateCountdown();
+        setInterval(updateCountdown, 86400000); // Update once per day
+    </script>
 
 </body>
 </html>
+
