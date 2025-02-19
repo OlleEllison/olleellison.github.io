@@ -68,6 +68,12 @@ width: 15%;
   box-sizing: border-box;
   width: 200px;
 }
+.left{
+ margin-right: 100%;
+}
+.right{
+ margin-left: 100%;
+}
 .bubble::after {
   content: "";
   display: block;
@@ -107,7 +113,6 @@ width: 15%;
   width: 4px;
   top: 24px;
   right: -8px;
-  margin-left: 100%;
   background: white;
   box-shadow: 4px -4px #fff, 4px 0 #fff, 8px 0 #fff, 0 -8px #fff, 4px 4px #000, 8px 4px #000, 12px 4px #000, 16px 4px #000, 12px 0 #000, 8px -4px #000, 4px -8px #000, 0 -4px #fff;
 }
@@ -123,7 +128,6 @@ width: 15%;
   width: 4px;
   top: 20px;
   left: -8px;
-  margin-right: 100%;
   background: white;
   box-shadow: -4px -4px #fff, -4px 0 #fff, -8px 0 #fff, 0 -8px #fff, -4px 4px #000, -8px 4px #000, -12px 4px #000, -16px 4px #000, -12px 0 #000, -8px -4px #000, -4px -8px #000, 0 -4px #fff;
 }
