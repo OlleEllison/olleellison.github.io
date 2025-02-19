@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MyCompany Inc.//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:olle-linn-wedding-20260815@example.com
+DTSTAMP:20250219T120000Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+SUMMARY:Olle & Linns Bröllop! 🎉
+DESCRIPTION:Kom och fira Olle och Linns bröllop ute i Stockholms skärgård! Mer info publiceras regelbundet på www.ellisonsvalberg.com
+LOCATION:Väddö
+END:VEVENT
+END:VCALENDAR
