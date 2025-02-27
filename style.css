@@ -120,10 +120,10 @@ width: 70%;
 .bubble {
   position: relative;
   display: inline-block;
-  margin-top: 120%;
+  margin-top: 290%;
   text-align: center;
   font-family: "Press Start 2P", cursive;
-  font-size: 16px;
+  font-size: 11px;
   line-height: 1.3em;
   background-color: #fff;
   color: #000;
@@ -133,7 +133,11 @@ width: 70%;
   width: 20%;
 }
 .left{
- margin-right: 30%;
+    position: absolute;
+    margin-right: 30%;
+    top: 15px;
+    right: 0;
+    width: 30%;
 }
 .right{
     
