@@ -40,9 +40,7 @@ body {
  display: block;
  margin: auto;
 }
-#countdown{
-    margin: 5%;
-}
+
 
 p {
     text-align: center;
@@ -114,12 +112,13 @@ width: 70%;
     width: 70%;
     margin: 6% 5% 5% 5%;
     float: right;
-    font-size: 14px;
+    font-size: 12px;
 }
 #countdown{
  text-align: center;
   font-family: "Press Start 2P", cursive;
-  font-size: 16px;
+  font-size: 12px;
+    margin: 5%;
 }
 .bubble {
   position: relative;
@@ -147,7 +146,16 @@ width: 70%;
     
     margin-left: 30%;
 }
+
+
+
 @media (min-width: 768px){
+    .caltext{
+    font-size: 16px;
+    }
+    #countdown{
+        font-size: 16px;
+    }
     .left{
      margin-right: 100%;
     }
