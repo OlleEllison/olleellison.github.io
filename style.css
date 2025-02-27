@@ -54,28 +54,34 @@ h1 {
   position: absolute;
   top: 0;
   left: 0;
-    width: 15vw;
+    width: 15%;
+    height: 100%;
 
 }
 #right{
   position: absolute;
   top: 0;
   right: 0;
-    width: 15vw;
+    width: 15%;
+    height: 100%;
 }
 #center{
  float: left;
-width: 70vw;
+width: 70%;
+    height: 100%;
 }
 
 @media (min-width: 768px) {
     #left, #right {
         float: left;
-        width: 15vw;
+    width: 15%;
+    height: 100%;
     }
     #center {
         float: left;
-        width: 70vw;
+    width: 70%;
+        
+    height: 100%;
     }
 }
     
