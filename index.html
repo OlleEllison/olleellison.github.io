@@ -33,7 +33,10 @@
   <img id="paret" src="linklle.png"></img>
  <img id="undertext" src="date.png"></img>
   <p id="countdown"></p>
-  <a href="invite.ics"> </a>
+  <button class="button-23" role="button">
+    <img class="iconcenter" src="cal.png" onclick="downloadICS()></img>
+    Lägg till i din kalender </button>
+  
 </div>
   <div id="right">
     <img class="iconcenter" src="icon.svg"></img>
@@ -44,6 +47,15 @@
     
 
  <script>
+   function downloadICS() {
+    // Create a temporary link element
+    const link = document.createElement("a");
+    link.href = "invite.ics"; // Path to your .ics file
+    link.download = "invite.ics"; // Suggested filename when downloaded
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
         function updateCountdown() {
             const targetDate = new Date("2026-08-15"); // Change this to your target date
             const currentDate = new Date();
@@ -64,4 +76,7 @@
 
 </body>
 </html>
+
+<!-- HTML !-->
+
 
