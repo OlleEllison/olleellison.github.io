@@ -39,6 +39,10 @@ body {
  display: block;
  margin: auto;
 }
+#countdown{
+    margin: 5%;
+}
+
 p {
     text-align: center;
     margin: auto;
