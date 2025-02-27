@@ -31,11 +31,10 @@ body {
  display: block;
  margin: auto;
 }
-#overtext {
- width: 300px;
- display: block;
- margin: auto;
-}
+#overtext{
+        width: 90%;
+        margin: 5%;
+    } 
 #undertext {
  width: 300px;
  display: block;
@@ -81,10 +80,11 @@ width: 70%;
 }
 
 @media (min-width: 768px) {
-    #overtext{
-        width: 90%;
-        margin: 5%;
-    } 
+    #overtext {
+ width: 300px;
+ display: block;
+ margin: auto;
+}
     #left, #right {
         float: left;
     width: 15%;
