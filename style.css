@@ -50,19 +50,35 @@ h1 {
     display: block;
     color: #E81C5E;
 }
-#left, #right, #center {
-    width: 100%;
-    max-width: 600px; /* Ensures elements don't become too wide */
+#left{
+  position: absolute;
+  top: 0;
+  left: 0;
+    width: 15vw;
+
+}
+#right{
+  position: absolute;
+  top: 0;
+  right: 0;
+    width: 15vw;
+}
+#center{
+ float: left;
+width: 70vw;
 }
 
 @media (min-width: 768px) {
     #left, #right {
-        width: 20%;
+        float: left;
+        width: 15vw;
     }
     #center {
-        width: 60%;
+        float: left;
+        width: 70vw;
     }
 }
+    
 .icon{
  width: 50%;
  margin: 10% 25% 0% 25%;
