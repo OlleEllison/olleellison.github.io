@@ -119,14 +119,16 @@ width: 300px;
     width: 70%;
     margin: 6% 5% 5% 5%;
     float: right;
-    font-family: "Grape Nuts", serif;
-    font-weight: 700;
+     font-family: "Kalam", serif;
+      font-weight: 400;
+      font-style: normal;
     font-size: 20px;
 }
 #countdown{
  text-align: center;
- font-family: "Grape Nuts", serif;
-    font-weight: 700;
+  font-family: "Kalam", serif;
+  font-weight: 400;
+  font-style: normal;
     font-size: 20px;
     margin: 5%;
 }
@@ -135,8 +137,9 @@ width: 300px;
   display: inline-block;
   margin-top: 290%;
   text-align: center;
-  font-family: "Grape Nuts", serif;
-    font-weight: 700;
+    font-family: "Kalam", serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 9px;
   line-height: 1.3em;
   background-color: #fff;
