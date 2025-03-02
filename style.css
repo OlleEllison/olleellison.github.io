@@ -252,7 +252,7 @@ width: 300px;
   line-height: 20px;
   margin: 0;
   outline: none;
-  padding: 13px 23px;
+  padding: 0px 0px;
   position: relative;
   text-align: center;
   text-decoration: none;
@@ -285,7 +285,7 @@ width: 300px;
 @media (min-width: 768px) {
   .button-23 {
     font-size: 1px; /* Smaller font size */
-    padding: 10px 20px; /* Smaller padding */
+    padding: 0px 0px; /* Smaller padding */
     width: auto; /* Retain the width of auto, or set a fixed width if desired */
   }
 }
