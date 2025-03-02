@@ -164,14 +164,14 @@ width: 300px;
         font-size: 16px;
     }
     .left{
-     margin-right: 100%;
+     margin-right: 210%;
     }
     .right{ 
-     margin-left: 100%;
+     margin-left: 210%;
     }
     .bubble {
         font-size: 12px;
-        margin-top: 260%;
+        margin-top: 150%;
     }
 }
 
