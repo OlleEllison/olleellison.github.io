@@ -263,6 +263,15 @@ width: 300px;
   width: auto;
 }
 
+/* Media query for wider screens (768px or larger) */
+@media (min-width: 768px) {
+  .button-23 {
+    font-size: 14px; /* Smaller font size */
+    padding: 10px 20px; /* Smaller padding */
+    width: auto; /* Retain the width of auto, or set a fixed width if desired */
+  }
+}
+
 .button-23:focus-visible {
   box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
   transition: box-shadow .2s;
