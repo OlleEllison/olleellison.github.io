@@ -119,10 +119,9 @@ width: 300px;
     width: 70%;
     margin: 6% 5% 5% 5%;
     float: right;
-      font-family: "Indie Flower", serif;
       font-weight: 400;
       font-style: normal;
-    font-size: 16px;
+    font-size: 20px;
 }
 #countdown{
  text-align: center;
@@ -177,7 +176,7 @@ width: 300px;
      margin-left: 220%;
     }
     .bubble {
-        font-size: 14px;
+        font-size: 18px;
         margin-top: 150%;
     }
 }
