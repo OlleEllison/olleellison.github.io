@@ -286,6 +286,7 @@ width: 300px;
   .button-23 {
     font-size: 1px; /* Smaller font size */
     padding: 0px 0px; /* Smaller padding */
-    width: auto; /* Retain the width of auto, or set a fixed width if desired */
+    max-width: 320px;
+    margin-bottom: 10px;
   }
 }
