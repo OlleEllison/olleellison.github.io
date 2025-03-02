@@ -119,7 +119,7 @@ width: 300px;
     width: 70%;
     margin: 6% 5% 5% 5%;
     float: right;
-    font-size: 15px;
+    font-size: 11px;
 }
 #countdown{
  text-align: center;
@@ -148,7 +148,7 @@ width: 300px;
 }
 .left{
     position: absolute;
-    margin-right: 80%;
+    margin-right: 60%;
     top: 15px;
     right: 0;
     width: 30%;
